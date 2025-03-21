@@ -1,6 +1,6 @@
 const TelegramApi = require('node-telegram-bot-api');
 const token = '7843482084:AAHcMcm9JXyPPxDTjbnayTQB4LSlLVg8Rh4';
-const webAppUrl = 'https://ya.ru';
+const webAppUrl = 'https://melodious-boba-286cf9.netlify.app/';
 const bot = new TelegramApi(token, {polling: true});
 bot.on('message', msg => {
     const chatId = msg.chat.id;
